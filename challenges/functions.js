@@ -23,7 +23,7 @@ function add(x, y) {
 }
 
 function multiply(x, y) {
-  return x + y;
+  return x * y;
 }
 
 function greeting(x, y) {

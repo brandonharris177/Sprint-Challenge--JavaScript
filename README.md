@@ -46,11 +46,11 @@ Closure is the gateway between the global and the outer scope. Closure allows fo
 1. Window binding  which is the default, if "this" is not specified it refers to the window (whole thing).
 2. Implicit binding which binds "this" to the object left of the (.) when the function is invoked.
 3. Explicit binding uses the words call, bind, or apply to explicitly bind "this" to a particular object.
-4. New Binding: using the keyword "new" to create an object and referring "this" to the new object.
+4. New Binding: using the keyword "new" to bind "this" to specified object.
 
 5. Why do we need super() in an extended class?
 
- Super() allows a child class to access functions and values of that object's parent class. Thus when extending it is important to include super() under the constructor(). 
+ Super() allows a child class to access functions and values of that object's parent class. Thus when extending it is important to include super() under the constructor() or it will not inherit the values of its parent. 
 
 ## Project Set up
 
