@@ -1,5 +1,5 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
-/////Because it is already declared the prototyples needs to be turned off in order to get this page to function.
+/////Because it is already declared the prototypes page needs to be turned off in order to get this page to function.
 class CuboidMaker {
     constructor(attributes) {
     this.length = attributes.length;
