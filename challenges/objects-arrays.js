@@ -163,19 +163,20 @@ console.log(lowerPopulation);
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
 */
-//////both below are potential answers////////
-// const populationTotal = 0;
-// total_animals = zooAnimals.reduce(function(accumulator, currentItem){
-//   return accumulator + currentItem.population;
-// }, populationTotal)
+//////both below are potential answers one returns the value without touching the constant the second returns it without touching the console.log////////
 
-// console.log(populationTotal + total_animals);
-
-const populationTotal = zooAnimals.reduce(function(accumulator, currentItem){
+const populationTotal = 0;
+total_animals = zooAnimals.reduce(function(accumulator, currentItem){
   return accumulator + currentItem.population;
-}, 0)
+}, populationTotal)
 
-console.log(populationTotal);
+console.log(populationTotal + total_animals);
+
+// const populationTotal = zooAnimals.reduce(function(accumulator, currentItem){
+//   return accumulator + currentItem.population;
+// }, 0)
+
+// console.log(populationTotal);
 /* 
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
